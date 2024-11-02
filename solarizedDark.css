@@ -1,0 +1,81 @@
+/*
+based on https://ethanschoonover.com/solarized/
+
+made for style-bot
+
+to apply everywhere set the URL to **
+!! NOTE that certain websites may need further customization !!
+*/
+
+:root {
+  /* base colours */
+  --base03:  #002b36; /* brblack   */
+  --base02:  #073642; /* black     */
+  --base01:  #586e75; /* brgreen   */
+  --base00:  #657b83; /* bryellow  */
+  --base0:   #839496; /* brblue    */
+  --base1:   #93a1a1; /* brcyan    */
+  --base2:   #eee8d5; /* white     */
+  --base3:   #fdf6e3; /* brwhite   */
+
+  /* accents */
+  --yellow:  #b58900;
+  --orange:  #cb4b16;
+  --red:     #dc322f;
+  --magenta: #d33682;
+  --violet:  #6c71c4; /* brmagenta */
+  --blue:    #268bd2;
+  --cyan:    #2aa198;
+  --green:   #859900;
+
+  /* applied base colours for easy swap */
+  --background:           var(--base03);
+  --backgroundHighlights: var(--base02);
+  --secondaryContent:     var(--base01);
+  --secondaryToPrimary:   var(--base00);
+  --primaryContent:       var(--base0);
+  --emphasizedContent:    var(--base1);
+  --highlightOne:         var(--base2);
+  --highlightTwo:         var(--base3);
+}
+
+body {
+  background-color: var(--background);
+  color:            var(--primaryContent);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primaryContent); /* Slightly lighter for headings */
+}
+
+p {
+    color: var(--secondaryContent); /* Slightly muted text */
+}
+
+a {
+    color: var(--blue); /* Link color */
+}
+
+a:hover {
+    color: var(--cyan); /* Link hover color */
+}
+
+button {
+    background-color: var(--backgroundHighlights);
+    color:            var(--primaryContent);
+    border: 1px solid var(--secondaryContent);
+}
+
+button:hover {
+    background-color: var(--secondaryContent);
+}
+
+input, textarea {
+    background-color: var(--background);
+    color:            var(--primaryContent);
+    border: 1px solid var(--secondaryContent);
+}
+
+input:focus, textarea:focus {
+    border-color: var(--blue);
+}
