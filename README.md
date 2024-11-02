@@ -1,0 +1,2 @@
+# style-bot-solarized
+ 
