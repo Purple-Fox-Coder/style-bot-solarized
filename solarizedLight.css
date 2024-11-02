@@ -63,7 +63,7 @@ a:hover {
 button {
     background-color: var(--backgroundHighlights);
     color:            var(--primaryContent);
-    border: 1px solid var(--secondaryContent);
+    border:           var(--secondaryContent);
 }
 
 button:hover {
@@ -73,7 +73,7 @@ button:hover {
 input, textarea {
     background-color: var(--background);
     color:            var(--primaryContent);
-    border: 1px solid var(--secondaryContent);
+    border:           var(--secondaryContent);
 }
 
 input:focus, textarea:focus {
