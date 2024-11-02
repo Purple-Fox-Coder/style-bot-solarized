@@ -39,8 +39,18 @@ to apply everywhere set the URL to **
   --highlightTwo:         var(--base3);
 }
 
+html {
+  background-color: var(--background);
+  color:            var(--primaryContent);
+}
+
 body {
   background-color: var(--background);
+  color:            var(--primaryContent);
+}
+
+header, footer {
+  background-color: var(--backgroundHighlights);
   color:            var(--primaryContent);
 }
 
